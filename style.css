@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+:root {
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.title-section h1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.6rem;
+}
+
+.expenses-form {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#main-table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.mdl-data-table th {
+	font-size: 18px;
+	color: rgb(195, 195, 195);
+}
+
+.mdl-textfield__input {
+	font-family: "Poppins", sans-serif;
+}
+
+.mdl-button {
+	font-family: "Poppins", sans-serif;
+}
+
+.row-edition button {
+	margin: 0 16px;
+}
+
+.edit-confirm-btn {
+	color: rgb(0, 188, 201);
+}
+
+.edit-confirm-btn:hover {
+	color: white;
+	background: rgb(0, 188, 201);
+}
+
+.edit-btn {
+	color: rgb(255, 196, 0);
+}
+
+.edit-btn:hover {
+	color: white;
+	background-color: rgb(255, 196, 0);
+}
+
+.delete-btn,
+.edit-cancel-btn {
+	color: rgb(243, 110, 110);
+}
+
+.delete-btn:hover,
+.edit-cancel-btn:hover {
+	color: white;
+	background-color: rgb(243, 110, 110);
+}
+tr p {
+	padding: 0;
+	margin: 0;
+}
+
+tr .mdl-textfield,
+tr .mdl-textfield__input {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.edit-value-input {
+	text-align: right;
+}
+
+tr .mdl-textfield:focus-visible,
+tr .mdl-textfield__input:focus-visible {
+	outline: 2px solid rgba(155, 39, 176, 0.377);
+}
+
+tr.on-edition {
+	border: 2px solid #f8ca75;
+}
